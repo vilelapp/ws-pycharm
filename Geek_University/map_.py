@@ -7,7 +7,7 @@ def area(r):
 print(area(2))
 print(area(5.3))
 
-raios = [2, 5, 7.1, 0.3, 10 , 44]
+raios = [2, 5, 7.1, 0.3, 10, 44]
 
 # Forma 1 - comum
 areas = []
