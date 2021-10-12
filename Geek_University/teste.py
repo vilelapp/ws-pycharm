@@ -1,6 +1,8 @@
-from collections import deque
+numero1 = int(input('Digite um número: '))
 
+def multiplicacao(x):
+    return x * numero1
 
-deq = deque('123456')
+numero2 = int(input('Digite outro número: '))
 
-print(deq)
+print(f'O resultado é: {multiplicacao(numero2)}')
