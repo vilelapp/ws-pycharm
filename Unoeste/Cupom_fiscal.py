@@ -35,3 +35,18 @@ for indice in range(0, len(venda)):
 
 print('-' * 46)
 print('TOTAL R$', str(valor_total).rjust(36))
+
+''' 
+----------------------------------------------
+            C U P O M  F I S C A L            
+ITEM CÓDIGO DESCRIÇÃO QTD.UN.VL_UNIT(R$) ST VL
+----------------------------------------------
+1   123                     Camisa estampada
+          3UN X 25.55                   76.65
+2   124            Camisa social manga longa
+          2UN X 79.99                  159.98
+3   125                          Calça jeans
+          1UN X 99.99                   99.99
+----------------------------------------------
+TOTAL R$                               336.62
+'''
