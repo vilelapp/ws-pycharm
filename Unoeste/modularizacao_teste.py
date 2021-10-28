@@ -1,14 +1,19 @@
-def dadosPaciente():
-    nome = input("Digite o nome do paciente: ")
-    telefone = input("Digite o telefone do paciente: ")
-    return nome, telefone
+def calcula_imc(peso, altura):
+    resultado = peso / (altura ** 2)
+    return resultado
 
-def calculoImc():
+def dados_paciente():
+    nome = input('Digite o nome do paciente: ')
+    telefone = input('Digite o telefone do paciente: ')
     peso = float(input("Digite o peso do paciente: "))
     altura = float(input("Digite a altura do paciente: "))
-    imc = peso / (altura ** 2)
-    print(f"O imc do paciente é {imc}")
+    return nome, telefone, peso, altura
 
-dadosPaciente()
-calculoImc()
+def principal():
+    nome, telefone, peso, altura = dados_paciente()
+    imc = calcula_imc(peso, altura)
+    print(f"O imc do paciente {nome} é {round(imc)}")
+
+if __name__ == '__main__':
+    principal()
 
