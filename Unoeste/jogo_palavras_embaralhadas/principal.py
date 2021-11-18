@@ -1,7 +1,6 @@
 from biblioteca.modulos import *
 """
-Cristiano Vilela – RA: 9312110861
-Réder Augusto – RA: 9312110853
+Cristiano Vilela
 
 ATIVIDADE 3 - JOGO DA PALAVRA EMBARALHADA
 """
